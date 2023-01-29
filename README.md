@@ -18,6 +18,7 @@
     tensorflow 2.11.0
     seaborn 0.12.2
     pandas 1.5.3
+    neural-tangents 0.6.1
     
   
 ## Run DP-KIP code
