@@ -1,6 +1,6 @@
-import tensorflow_datasets as tfds
-import numpy as np
+import  numpy as np
 import os
+import tensorflow_datasets as tfds
 
 def get_tfds_dataset(name):
 
@@ -88,7 +88,6 @@ def get_normalization_data(arr):
 def normalize(arr, mean, std):
   return (arr - mean) / std
 
-
 def one_hot(x,
             num_classes,
             center=True,
@@ -98,5 +97,3 @@ def one_hot(x,
   if center:
     one_hot_vectors = one_hot_vectors - 1. / num_classes
   return one_hot_vectors
-
-
