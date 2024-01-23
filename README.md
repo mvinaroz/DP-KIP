@@ -8,7 +8,7 @@ Note: This will install JAX for CPU only. If you want to install JAX for GPU ple
 
 ## Run KIP and DP-KIP code
 
-### Image data KRR downstream classifier for infinite-width FC NTK
+### Image data KRR downstream classifier for infinite-width FC-NTK
 
  `python dpkip_inf_ntk.py --dpsgd=True --l2_norm_clip=1e-6 --epochs=10 --learning_rate=1e-2 --batch_size=50 --epsilon=1 --architecture='FC' --width=1024 --dataset='mnist' --support_size=10` 
  
